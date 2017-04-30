@@ -1,0 +1,62 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/*rows and images for homepage*/
+.row2-col1 {
+    border: 1px solid;
+    border-color: #d2d2d2;
+    height: 480px;
+    overflow: hidden;
+    background-image: url('Images/squareshirt.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.row2-col2 {
+    border: 1px solid;
+    border-color: #d2d2d2;
+    height: 480px;
+    overflow: hidden;
+    background-image: url('Images/squarebottoms.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.row2-col3 {
+    border: 1px solid;
+    border-color: #d2d2d2;
+    height: 480px;
+    overflow: hidden;
+    background-image: url('Images/squareshoe.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.row2-col4 {
+    border: 1px solid;
+    border-color: #d2d2d2;
+    height: 480px;
+    overflow: hidden;
+    background-image: url('Images/squarebelt.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
