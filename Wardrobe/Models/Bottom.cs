@@ -11,7 +11,8 @@ namespace Wardrobe.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+
     public partial class Bottom
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,11 +22,17 @@ namespace Wardrobe.Models
         }
     
         public int BottomID { get; set; }
+        [DisplayName("Brand")]
         public string BottomName { get; set; }
+        [DisplayName("Photo")]
         public string BottomPhoto { get; set; }
+        [DisplayName("Type")]
         public string BottomType { get; set; }
+        [DisplayName("Color")]
         public string BottomColor { get; set; }
+        [DisplayName("Season")]
         public string BottomSeason { get; set; }
+        [DisplayName("Occasion")]
         public string BottomOccasion { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
